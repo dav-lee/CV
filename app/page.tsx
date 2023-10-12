@@ -29,32 +29,28 @@ export default function Home() {
 				quantity={100}
 			/>
 			<h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-				chronark
+				David Zheng
 			</h1>
 
 			<div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
 			<div className="my-16 text-center animate-fade-in">
 				<h2 className="text-sm text-zinc-500 mx-6">
-					Hi, my name is Andreas, I'm building serverless and open source
-					solutions at{" "}
+					Hi, my name is David, I study Data Science BSc at IT University of Copenhagen. <br /> In my spare time I like to build things, and I am currently working on AI driven fullstack applications at {" "}
 					<Link
 						target="_blank"
-						href="https://upstash.com"
+						href="https://Karnov.ai"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						Upstash
-					</Link>
-
-					
-					<wbr /> and working on{" "}
+						Karnov.ai
+					</Link> {" "}
+					<wbr /> and {" "}
 					<Link
 						target="_blank"
-						href="https://unkey.dev"
+						href="https://girlfriend.wtf"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						unkey.dev
-					</Link>{" "}
-					at night.
+						Girlfriend.wtf
+					</Link>{" "}.
 				</h2>
 			</div>
 		</div>
