@@ -9,4 +9,32 @@ published: true
 repository: davrepo/gfchat
 ---
 
+<div style={{ display: 'flex', justifyContent: 'center', gap: '16px' }}>
+
+  <div style={{ transform: 'scale(0.9)' }}>
+    [![gfchat](/assets/gfchat/rooms.png)](https://github.com/davrepo/gfchat)
+  </div>
+  
+  <div style={{ transform: 'scale(0.7)' }}>
+    [![gfchat](/assets/gfchat/login.png)](https://github.com/davrepo/gfchat)
+  </div>
+
+</div>
+
+[![gfchat](/assets/gfchat/chat.png)](https://github.com/davrepo/gfchat)
+
+
+
 gchat is a fullstack chat application. Front-end is built with Next.js and TailwindCSS. Back-end is built with Golang Gin framework and WebSockets.
+
+### To run the application on your local machine:
+start PostgreSQL database and create a database named `gchat`, then
+```bash
+cd .\server\
+go run .\cmd\main.go
+```
+```bash
+cd .\client\
+npm install
+npm run dev
+```
