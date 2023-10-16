@@ -1,8 +1,28 @@
 ---
 title: Melanoma Skin Lesion Classifier
 description: Image segmentation, classification, and localization of melanoma skin lesions using TensorFlow and Keras.
-# repository: upstash/web-analytics
+
+
+date: "2022-10-01"
+url: https://github.com/davrepo/FYP_proj2
 published: true
+repository: davrepo/FYP_proj2
 ---
 
-Coming soon
+Image segmentation, classification, and localization of melanoma skin lesions using TensorFlow and Keras.
+
+---
+
+## How to run the project
+```python
+from PIL import Image
+
+image_path = '..' + os.sep + 'FYP_proj2' + os.sep + 'data' + os.sep +'images_resized' + os.sep + 'PAT_710_1330_243.PNG'
+mask_path = '..' + os.sep + 'FYP_proj2' + os.sep + 'data' + os.sep + 'shanon_masks_total' + os.sep + 'PAT_710_1330_243.PNG'
+
+img = Image.open(image_path)
+mask = Image.open(mask_path)
+
+classify(img, mask)
+classify_path(image_path, mask_path)
+```
