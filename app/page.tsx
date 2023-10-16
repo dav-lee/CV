@@ -46,10 +46,10 @@ export default function Home() {
 					<wbr /> and {" "}
 					<Link
 						target="_blank"
-						href="https://girlfriend.wtf"
+						href="https://Drhouse.ai"
 						className="underline duration-500 hover:text-zinc-300"
 					>
-						Girlfriend.wtf
+						DrHouse.ai
 					</Link>{" "}.
 				</h2>
 			</div>
