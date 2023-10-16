@@ -14,8 +14,8 @@ export const metadata: Metadata = {
 		title: "Karnov.ai",
 		description:
 			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+		url: "https://karnov.ai",
+		siteName: "karnov.ai",
 		images: [
 			{
 				url: "https://chronark.com/og.png",
